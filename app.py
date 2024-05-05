@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 # Load the saved linear regression model
-loaded_model = pickle.load(open('smartheightoweightmodel.pkl', 'rb'))
+loaded_model = pickle.load(open('smartweightpredictionmodel.pkl', 'rb'))
 
 def predict_weight(height):
   """
