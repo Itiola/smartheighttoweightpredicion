@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'SmartWeightPrediction'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6919A022A73C4AEE9E238B32C3417DB4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BF168CAD45774D1F898F1831C2958417 }}
